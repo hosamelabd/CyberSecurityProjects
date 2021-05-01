@@ -1,2 +1,2 @@
 # CyberSecurityProjects
-This repository contains some of the projects I have worked on in my employment, boot camp, Freelancing, and free time. 
+This repository contains some of the projects I have worked on iduring my cyber security bootcamp. 
