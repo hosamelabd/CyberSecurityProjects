@@ -84,9 +84,9 @@ This ELK server is configured to monitor the following machines:
 - Web 3 - 10.0.0.12
 
 We have installed the following Beats on these machines:
-- Web 1 - filebeat-7.4.0-amd64.deb
-- Web 2 - filebeat-7.4.0-amd64.deb
-- Web 3 - filebeat-7.4.0-amd64.deb
+- Web 1 - filebeat-7.4.0-amd64.deb and metricbeat-7.4.0-amd64.deb
+- Web 2 - filebeat-7.4.0-amd64.deb and metricbeat-7.4.0-amd64.deb
+- Web 3 - filebeat-7.4.0-amd64.deb and metricbeat-7.4.0-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
 - Filebeats allows us to monitor file logs and collect log events. Example of such logs is login attempts.
