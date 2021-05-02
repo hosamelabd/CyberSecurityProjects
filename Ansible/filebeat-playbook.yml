@@ -1,3 +1,4 @@
+---
 - name: installing and launching filebeat
   hosts: webservers
   become: yes
