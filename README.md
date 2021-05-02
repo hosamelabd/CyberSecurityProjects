@@ -96,12 +96,6 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat.yml file to /etc/ansbile.
-- Update the filebeat-conig.yml file to include ELK server IP address, name, credetionals, state, and ports.
-- Run the playbook, and navigate to ELK server to check that the installation worked as expected.
-
-
-- Filebeat-playbook.yml contains the ansible playbook, copy this file to /etc/ansible/.
-- Configure the Hosts file on /etc/ansible to include the Elk servers IP and Webservers IPs. The Filebeat-playbook.yml playbook will run and configure the Webservers only.
-- http://52.138.3.119:5601
-
+- Copy the Elkserver-playbook.yml file to /etc/ansbile.
+- Update the hosts file to include ELK server IP address, name, credetionals, state, and ports.
+- Run the playbook, and navigate to http://52.138.3.119:5601 (this is your assigned restricted ELK server Public IP) to check that the installation worked as expected.
