@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Today is the day March 2, 2021"
+echo "$UNAME"
+echo "IP info: $(ip addr| head -10) "
+echo "$HOSTNAME"
